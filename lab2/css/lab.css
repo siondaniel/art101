@@ -1,6 +1,6 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 h1 {
-  color: orange;
+  color: blue;
   font-size: 200%;
 }
 
@@ -21,6 +21,11 @@ p {
   /* Put a dashed or dotted border around the div */
   border-style: dashed;
   border-width: 5px;
+  /* Make the border have rounded corners */
+  border-radius: 10px;
+  /* Center the div */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
