@@ -25,6 +25,8 @@ h1 {
   padding: 10px;
   border: solid 1px #888;
   background-color: #84B59F;
+  /* code-like font */
+  font-family: monospace;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
