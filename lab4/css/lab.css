@@ -7,3 +7,8 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+/* resize results image to 50% of original size */
+#results {
+  width: 50%;
+}
