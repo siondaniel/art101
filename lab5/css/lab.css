@@ -13,3 +13,13 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+#console{
+  width: 25%;
+  height: 25%;
+}
+
+#jscode{
+  width: 40%;
+  height: 40%;
+}
