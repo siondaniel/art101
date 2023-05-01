@@ -1,21 +1,28 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Create and print a JavaScript array and object 
+//            based on our transportation methods.
+// Author: Sion Daniel
+// Date: 05/01/2023
 
 // Constants
+// Define variables
+var myTransport = [" Mazda v3", " bike ", " bus", " Uber", " rides from friends"];
 
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+// create an object for my main ride
+var myMainRide = {
+  make: "Mazda",
+  model: "v3",
+  color: "Dark Blue",
+  year: 2008,
+  age: function() {
+      return 2023 - this.year;
+  }
 }
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+// Output
+document.writeln("Kinds of transportation I use:" + myTransport + "<br>");
+// Write the object to the document
+document.writeln("My Main Ride: <pre>",
+    JSON.stringify(myMainRide, null, '\t'), "</pre>");
 
 // let's get this party started
 main();
