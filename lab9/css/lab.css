@@ -1,0 +1,40 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #888;
+  background-color: #DDD8C4;
+}
+
+#car{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#console{
+  width: 25%;
+  height: 25%;
+}
+
+#jscode{
+  width: 33%;
+  height: 33%;
+}
+
+h3 {
+  font-family: fantasy;
+  /* Make the text have a shadow */
+  text-shadow: 2px 1px 4px #ff0000;
+}
+
+h4 {
+  font-family: cursive;
+}
+
+h5 {
+  font-size: xx-small;
+}
+
