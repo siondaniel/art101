@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This title is used for tabs and bookmarks -->
+	<title>Lab 15 - AJAX</title>
+
+	<!-- Use UTF character set, a good idea with any webpage -->
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- Include a sitewide CSS file for consistent styling across the site -->
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<script src="js/lab.js" defer></script>
+</head>
+<body>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<main id="content">
+		<section>
+			<h1>Lab 15 - AJAX</h1>
+			<div class="minor-section" id ="challenge">
+					<h2>Challenge</h2>
+					<p>With a partner, experiment with jQuery and AJAX.</p>
+			</div>
+
+			<div class="minor-section" id ="problems">
+					<h2>Problems</h2>
+					<p>
+						Given the template code, creating this lab was straightforward and I did not encounter any problems.
+					</p>
+			</div>
+
+			<div class="minor-section">
+					<h2>Reflection</h2>
+					<p>Write down summary of efforts here: 
+						I worked on this lab alone as I was unable to find time to partner up. I began by copying my html template and modifying certain fields.
+						From there, I created a function that would use AJAX to retrieve data from the PokemonAPI. I then used jQuery to display the data in a table.
+						Finally, I added a button that would activate the function when clicked. I list the first 5 Pokemon in the table including their name, height, and weight.
+						For displaying purposes, I used JSON.stringify to display the data in a readable format. Overall, I feel this lab was a great learning experience, and something I could potentially use in my final project.
+					</p>
+			</div>
+
+			<div class="minor-section" id ="results">
+					<h2>Results</h2>
+					<p>The results of my function are seen below! The JavaScript code is linked below.</p>
+					<div id="output"></div>
+					<button id="activate">Pokemon</button>
+			</div>
+		<nav id="links">
+			<!-- Put links to other pages (including the homepage) here. -->
+			<a href="../index.html">Homepage</a>
+			<a href="../lab2/index.html">Lab 2: My First HTML</a>
+			<a href="../lab3/index.html">Lab 3: File Structures</a>
+			<a href="../lab4/index.html">Lab 4: File Structures</a>
+			<a href="../lab5/index.html">Lab 5: Data Types and Variables</a>
+			<a href="../lab6/index.html">Lab 6: Arrays and Objects</a>
+			<a href="../lab7/index.html">Lab 7: Functions</a>
+			<a href="../lab7/index.html">Lab 8 - Anon Functions and Callbacks</a>
+			<a href="../lab7/index.html">Lab 9 - JavaScript for the Web</a>
+			<a href="../lab10/index.html">Lab 10 - JavaScript Events and Forms</a>
+			<a href="../lab11/index.html">Lab 11 - Libraries & jQuery</a>
+			<a href="../lab12/index.html">Lab 12 - Conditionals</a>
+			<a href="../lab13/js/lab.js">Lab 13 - Loops (JS)</a>
+			<a href="js/lab.js">Lab 15 - AJAX (JS)</a>
+		</nav>
+	</main>
+</body>
+</html>
